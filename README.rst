@@ -5,8 +5,8 @@ Quick Installation Guide 2017-10-17
 +++++++++++++++++++++++++++++++
 Too Quick Installation Process
 +++++++++++++++++++++++++++++++
-
-#. Clone This Repo or download As Zip.
+If You had done this many times:
+#. Clone This Repo or Download As Zip By Cliking The Big Green Button.
 #. Activate Your Virtual Environment.
 #. Install All The Dependencies(Requirements.txt)
 #. Change Directory To The Base Directory(where you could get manage.py)
