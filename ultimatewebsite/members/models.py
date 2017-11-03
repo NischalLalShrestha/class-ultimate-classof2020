@@ -8,7 +8,7 @@ class Member(models.Model):
     phone_number = models.CharField('Phone Number', max_length = 10)
     email = models.CharField('Email', max_length = 150)
     hometown = models.CharField("Your HomeTown", max_length = 200)
-    favourite_quote = models.CharField(max_length = 200, blank = True)
+    favourite_quote = models.CharField(max_length = 600, blank = True)
     bio = models.TextField()
     your_website = models.URLField(blank = True, null = True, default = 'https://pythonair.me')
     facebook_url = models.CharField('Facebook URL', max_length = 100,
