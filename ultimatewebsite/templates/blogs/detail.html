@@ -5,9 +5,10 @@
     {{blogpost.title}} |
 {% endblock title %}
 {% block BlogPostDetail %}
-<p class="lead"><a href="{% url 'BlogPost List' %}">&laquo; All Blogs Of Our Class</a> </p>
+
 <div class="jumbotron">
     <div class = 'container'>
+    <p class="lead"><a href="{% url 'BlogPost List' %}">&laquo; All Blogs Of Our Class</a> </p>
 <a href = "{% url 'Update BlogPost' slug=blogpost.slug %}" role = 'button' class = 'btn btn-primary'>Update</a>
 
     <div class = 'row'>
