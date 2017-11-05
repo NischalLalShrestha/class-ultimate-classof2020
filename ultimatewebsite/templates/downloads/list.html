@@ -16,6 +16,14 @@
         {% for download_item in all_downloads  %}
             <div class = "col-xs-12 col-sm-6 col-md-4 col-lg-3 mt-4">
                 <h4><a href = "{% url 'Download Item' id=download_item.pk  %}" class = 'list-unstyled'>{{download_item.file.name|truncatechars:25}}</a></h4>
+                    <div class = "item-size">
+                        {% if download_item.get_size > 1 %}
+                            <p>{{download_item.get_size}} MB</p>
+                        {% else %}
+                            <p>{{download_item.file.size}} KB</p>
+                        {% endif %}
+                    </div>
+                
 
                 <a href = "{% url 'Download Item' id=download_item.pk %}" class = 'btn btn-danger'>Download  <span class = 'fa fa-download'></span></a>
              </div>

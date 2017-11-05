@@ -11,3 +11,7 @@ class DownloadItem(models.Model):
 
     def __str__(self):
         return self.file.name
+
+    def get_size(self):
+        size = self.file.size / 1000000
+        return size
