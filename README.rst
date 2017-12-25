@@ -41,7 +41,7 @@ Some Images
 
 
 
-Detailedd Installation Process
+Detailed Installation Process
 ++++++++++++++++++
 Installing Python
 ++++++++++++++++++
