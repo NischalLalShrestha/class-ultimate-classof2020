@@ -16,29 +16,13 @@ Too Quick Installation Process
     python manage.py makemigrations
     python manage.py migrate
 
-#. To Run The Server::
 
-    python manage runserver
-
-+++++++++++++++++++
-Some Images 
-+++++++++++++++++++
-
-============
 
 .. image:: /ultimatewebsite/media/our_member.png
 
-=============
-
-.. image:: /ultimatewebsite/media/new_blogpost.png
-
-============
-
-.. image:: /ultimatewebsite/media/blogpost_detail.png
 
 
-
-
+Now you can browse privately, and other people who use this device won’t see your activity. However, downloads and bookmarks will be saved. Learn more
 
 
 Detailed Installation Process
